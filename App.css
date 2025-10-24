@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #8a2be2, #9370db);
+  color: white;
+}
+
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.controls button {
+  flex: 1 1 150px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: white;
+  color: black;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+.controls button:hover {
+  transform: scale(1.05);
+}
+
+.debate-area {
+  background: white;
+  color: black;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.debate-area p {
+  font-weight: bold;
+}
+
+textarea {
+  width: 90%;
+  height: 100px;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #242222;
+  resize: vertical;
+}
+
+.debate-area button {
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background: #8a2be2;
+  color: rgb(235, 231, 231);
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.debate-area button:hover {
+  background: #7a1fd2;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.buttons button {
+  flex: 1 1 200px;
+}
+
+.result-section {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 6px;
+  background: #e0ffe0;
+  color: #006400;
+  font-weight: bold;
+}
+
+.result-section p {
+  margin: 5px 0;
+}
+
+.score {
+  font-size: 1.1em;
+  color: #ff4500;
+}
+
+.history {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.history h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.history ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.history li {
+  margin: 8px 0;
+  padding: 8px;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.history li strong {
+  font-weight: bold;
+}
+
+.history li .score {
+  color: #ffa500;
+  font-weight: bold;
+}
