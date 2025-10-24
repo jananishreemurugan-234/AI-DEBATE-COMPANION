@@ -119,6 +119,7 @@ Open http://localhost:3000 in your browser (or access from another device using 
 
 ## Author
 Developed with passion by M. Janani Shree , K.Elamathi, M.Gayathri.
+Team Name : server survivors.
 AI Debate Companion – where technology meets intelligent conversation.
 
 ## Conclusion
@@ -134,3 +135,5 @@ Overall, this project serves as both a learning platform and a practical debate 
 ### Desktop
 <img width="1916" height="1131" alt="image" src="https://github.com/user-attachments/assets/3c54f757-41c1-4a25-b69a-81eaaf80c804" />
 <img width="1897" height="291" alt="image" src="https://github.com/user-attachments/assets/8879aa89-10f9-472b-a018-5352b2b2a3c9" />
+
+**output review**
